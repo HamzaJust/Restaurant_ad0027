@@ -1,0 +1,15 @@
+D:\study\Restaurant_ad0027\bin\Debug\Restaurant_ad0027.exe.config
+D:\study\Restaurant_ad0027\bin\Debug\Restaurant_ad0027.exe
+D:\study\Restaurant_ad0027\bin\Debug\Restaurant_ad0027.pdb
+D:\study\Restaurant_ad0027\obj\Debug\Restaurant_ad0027.csproj.AssemblyReference.cache
+D:\study\Restaurant_ad0027\obj\Debug\Restaurant_ad0027.csproj.SuggestedBindingRedirects.cache
+D:\study\Restaurant_ad0027\obj\Debug\Restaurant_ad0027.frmLogin.resources
+D:\study\Restaurant_ad0027\obj\Debug\Restaurant_ad0027.Properties.Resources.resources
+D:\study\Restaurant_ad0027\obj\Debug\Restaurant_ad0027.csproj.GenerateResource.cache
+D:\study\Restaurant_ad0027\obj\Debug\Restaurant_ad0027.csproj.CoreCompileInputs.cache
+D:\study\Restaurant_ad0027\obj\Debug\Restaurant_ad0027.exe
+D:\study\Restaurant_ad0027\obj\Debug\Restaurant_ad0027.pdb
+D:\study\Restaurant_ad0027\obj\Debug\Restaurant_ad0027.frmWelcome.resources
+D:\study\Restaurant_ad0027\obj\Debug\Restaurant_ad0027.frmMenu.resources
+D:\study\Restaurant_ad0027\obj\Debug\Restaurant_ad0027.frmOrder.resources
+D:\study\Restaurant_ad0027\obj\Debug\Restaurant_ad0027.frmCheckOut.resources
