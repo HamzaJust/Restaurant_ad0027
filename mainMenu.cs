@@ -22,7 +22,7 @@ namespace Restaurant_ad0027
 
         private void btnMenu_Click(object sender, EventArgs e)
         {
-
+            pnlShow.Controls.Clear();
             frmMenu myForm = new frmMenu();
             myForm.TopLevel = false;
             myForm.AutoScroll = true;
@@ -31,10 +31,12 @@ namespace Restaurant_ad0027
             myForm.Show();
         }
 
-        private void btnOrder_Click(object sender, EventArgs e)
+        
+
+        private void button3_Click(object sender, EventArgs e)
         {
             pnlShow.Controls.Clear();
-            frmOrder myForm1 = new frmOrder();
+            frmCheckOut myForm1 = new frmCheckOut();
             myForm1.TopLevel = false;
             myForm1.AutoScroll = true;
             pnlShow.Controls.Add(myForm1);
@@ -42,10 +44,10 @@ namespace Restaurant_ad0027
             myForm1.Show();
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void btnOrder_Click(object sender, EventArgs e)
         {
             pnlShow.Controls.Clear();
-            frmCheckOut myForm1 = new frmCheckOut();
+            frmOrder myForm1 = new frmOrder();
             myForm1.TopLevel = false;
             myForm1.AutoScroll = true;
             pnlShow.Controls.Add(myForm1);

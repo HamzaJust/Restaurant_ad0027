@@ -10,11 +10,18 @@ using System.Windows.Forms;
 
 namespace Restaurant_ad0027
 {
-    public partial class frmOrder : Form
+    public partial class frmMenu : Form
     {
-        public frmOrder()
+        public frmMenu()
         {
             InitializeComponent();
         }
+
+        
+    }
+    class Meal
+    {
+        public int mealPrice { get; set; }
+        
     }
 }

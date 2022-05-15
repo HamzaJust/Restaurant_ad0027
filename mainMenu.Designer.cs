@@ -29,17 +29,17 @@
         private void InitializeComponent()
         {
             this.panel2 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
             this.lblWelcomeName = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.button3 = new System.Windows.Forms.Button();
-            this.btnOrder = new System.Windows.Forms.Button();
             this.btnMenu = new System.Windows.Forms.Button();
             this.pnlShow = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btnOrder = new System.Windows.Forms.Button();
             this.panel2.SuspendLayout();
-            this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel2
@@ -53,6 +53,16 @@
             this.panel2.Size = new System.Drawing.Size(785, 124);
             this.panel2.TabIndex = 1;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Algerian", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(123, 52);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(219, 21);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "Welcome to Firefly";
+            // 
             // lblWelcomeName
             // 
             this.lblWelcomeName.AutoSize = true;
@@ -62,11 +72,21 @@
             this.lblWelcomeName.Size = new System.Drawing.Size(0, 21);
             this.lblWelcomeName.TabIndex = 1;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Restaurant_ad0027.Properties.Resources.download1;
+            this.pictureBox1.Location = new System.Drawing.Point(6, 12);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(111, 101);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.panel1.Controls.Add(this.button3);
             this.panel1.Controls.Add(this.btnOrder);
+            this.panel1.Controls.Add(this.button3);
             this.panel1.Controls.Add(this.btnMenu);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 124);
@@ -76,7 +96,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(23, 249);
+            this.button3.Location = new System.Drawing.Point(23, 306);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 23);
             this.button3.TabIndex = 2;
@@ -84,19 +104,9 @@
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
-            // btnOrder
-            // 
-            this.btnOrder.Location = new System.Drawing.Point(23, 177);
-            this.btnOrder.Name = "btnOrder";
-            this.btnOrder.Size = new System.Drawing.Size(75, 23);
-            this.btnOrder.TabIndex = 1;
-            this.btnOrder.Text = "Order";
-            this.btnOrder.UseVisualStyleBackColor = true;
-            this.btnOrder.Click += new System.EventHandler(this.btnOrder_Click);
-            // 
             // btnMenu
             // 
-            this.btnMenu.Location = new System.Drawing.Point(23, 110);
+            this.btnMenu.Location = new System.Drawing.Point(23, 116);
             this.btnMenu.Name = "btnMenu";
             this.btnMenu.Size = new System.Drawing.Size(75, 23);
             this.btnMenu.TabIndex = 0;
@@ -114,25 +124,15 @@
             this.pnlShow.Size = new System.Drawing.Size(668, 640);
             this.pnlShow.TabIndex = 3;
             // 
-            // label1
+            // btnOrder
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Algerian", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(123, 52);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(219, 21);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "Welcome to Firefly";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Restaurant_ad0027.Properties.Resources.download1;
-            this.pictureBox1.Location = new System.Drawing.Point(6, 12);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(111, 101);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.btnOrder.Location = new System.Drawing.Point(23, 218);
+            this.btnOrder.Name = "btnOrder";
+            this.btnOrder.Size = new System.Drawing.Size(75, 23);
+            this.btnOrder.TabIndex = 3;
+            this.btnOrder.Text = "Order";
+            this.btnOrder.UseVisualStyleBackColor = true;
+            this.btnOrder.Click += new System.EventHandler(this.btnOrder_Click);
             // 
             // frmWelcome
             // 
@@ -146,8 +146,8 @@
             this.Text = "Welcome to FireFly";
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -157,10 +157,10 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button btnOrder;
         private System.Windows.Forms.Button btnMenu;
         private System.Windows.Forms.Panel pnlShow;
         private System.Windows.Forms.Label lblWelcomeName;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnOrder;
     }
 }
